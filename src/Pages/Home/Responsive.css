@@ -1,0 +1,239 @@
+@media (width > 1200px){
+    .menu-icon-header{
+        display: none !important;
+    }
+}
+
+@media (max-width: 1200px){
+    .main-header{
+        width: 90% !important;
+        padding-top: 20px;
+    }
+    .menu-icon-header{
+        display: none !important;
+    }
+}
+
+@media (max-width: 1050px){
+    .hero-section-data{
+        width: 100% ;
+    }
+
+    .about-img img{
+        width: 70%;
+    }
+
+    .about-img-text{
+        bottom: 80px;
+    }
+}
+
+@media (max-width: 1100px){
+    .header-social-links svg{
+        display: none; 
+    }
+    .header-social-links:last-child{
+        display: inline-block !important;
+    }
+}
+
+@media (max-width: 1000px){
+    .about-first{
+        flex-direction: column;
+    }
+
+    .about-first-col-1{
+        width: 100% !important;
+        padding: 0 30px;
+        text-align: center;
+    }
+
+    .about-first-col-2{
+        width: 100% !important;
+        padding: 0 30px;
+    }
+
+    .about-first-image{
+        width: 60% !important;
+    }
+
+    .about-second{
+        flex-direction: column;
+        padding: 0 30px;
+    }
+
+    .about-second-col-1, .about-second-col-2{
+        width: 100% !important;
+    }
+}
+
+
+
+@media (max-width: 900px){
+    .about-second-data{
+        flex-direction: column;
+    }
+
+    .about-second-first-col{
+        width: 80%;
+    }
+
+    .about-second-second-col{
+        width: 100%;
+    }
+
+    .contact-container{
+        flex-direction: column;
+    }
+    .homepage-contact-image{
+        display: none;
+    }
+
+    .contact-data-form, .contact-ways{
+        width: 70%;
+    }
+
+    .footer-container{
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
+@media (max-width: 870px){
+    .upper-nav-socials-icons{
+        display: none !important;
+    }
+
+    .home-hero-section{
+        height: auto;
+        padding: 20px 20px 50px 20px;
+    }
+
+    .hero-section-data{
+        flex-direction: column;
+    }
+    
+    .home-hero-texts{
+        width: 100%;
+    }
+
+    .home-hero-appointment{
+        width: 100%;
+    }
+
+    #about{
+        flex-direction: column;
+        padding: 0 50px;
+    }
+
+    .about-img, .about-texts{
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .about-img img{
+        width: 70%;
+    }
+
+    .about-bar-color, .about-bar-bg{
+        display: none;
+    }
+
+    .home-hero-appointment{
+        align-items: center;
+    }
+
+    .about-page-third{
+        flex-direction: column;
+        padding: 0 30px;
+    }
+
+    .about-third-col-1, .about-third-col-2{
+        width: 100% !important;
+        border: none !important;
+    }
+}
+
+@media (max-width: 768px){
+    .upper-header{
+        display: none !important;
+    }
+    
+    .main-header{
+        width: 90%;
+    }
+    .header-search{
+        display: none !important;
+    }
+
+    .portfolio-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+    }
+    
+    .portfolio-container .large{
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+
+    .portfolio-container .large:last-child{
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+}
+
+@media (max-width: 600px){
+    .about-img img{
+        width: 100%;
+    }
+
+    .about-img-text{
+        right: -20px;
+        bottom: 80px;
+    }
+
+    .navbar-nav{
+        display: none;
+    }
+    .menu-hamburger-icon{
+        display: inline-block !important;
+    }
+
+    .about-first-counter-section{
+        padding: 20px 40px !important;
+    }
+    .menu-icon-header{
+        display: inline-block !important;
+    }
+    header{
+        padding: 0 !important;
+    }
+}
+
+
+@media (max-width: 500px){
+    .navbar-nav{
+        display: none !important;
+    }
+
+    .footer-container{
+        grid-template-columns: 1fr !important;
+    }
+
+    .contact-submit-button{
+        width: 40%;
+    }
+}
+
+@media (max-width: 450px){
+    .about-first-counter-section{
+        padding: 10px 20px !important;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .contact-ways{
+        padding: 50px 10px;
+    }
+
+}

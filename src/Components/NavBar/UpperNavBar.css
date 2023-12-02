@@ -1,0 +1,57 @@
+.upper-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    padding: 0 15px;
+}
+
+.upper-nav-contacts, .upper-nav-socials{
+    display: flex;
+    height: 100%;
+    gap: 20px;
+}
+
+.upper-nav-info {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-left: 1px solid grey;
+    padding-left: 10px;
+    gap: 10px;
+}
+.upper-nav-info-add {
+    display: flex;
+    align-items: center;
+    border: none;
+    gap: 10px;
+}
+
+.upper-nav-icon{
+    color: var(--primary-color) !important;
+}
+
+.upper-nav-socials-icons{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.upper-nav-social-icon{
+    padding: 4px;
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 6px;
+    border: 1px solid var(--primary-color);
+    transition: all .3s ease !important;
+    margin-bottom: 5px;
+    font-size: 18px !important;
+    width: 1.5em !important;
+    height: 1.5em !important;
+    cursor: pointer;
+}
+
+.upper-nav-social-icon:hover{
+    background-color: white;
+    color: var(--primary-color);
+}

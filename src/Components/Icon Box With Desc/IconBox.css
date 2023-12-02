@@ -1,0 +1,25 @@
+.icon-box{
+    display: flex;
+    gap: 30px;
+}
+
+.icon-box-icon{
+    width: 50px !important;
+    height: 50px !important;
+    fill: var(--primary-color) !important;
+}
+
+.icon-texts{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.icon-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.icon-desc{
+    font-size: 14px;
+}

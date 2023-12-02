@@ -1,0 +1,49 @@
+.blog-box{
+    max-width: 370px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #ddd;
+    position: relative;
+    text-align: right;
+    border-radius: 12px;
+}
+
+.blog-data{
+    padding: 15px 15px 30px 15px;
+}
+
+.blog-date{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: #fff;
+    padding: 5px 10px;
+    background: var(--primary-color);
+    border-radius: 2px;
+}
+
+.blog-image{
+    width: 100%;
+    border-radius: 12px 12px 0 0 ;
+    background-size: cover;
+}
+
+.blog-extra-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.blog-extra-avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.blog-extra-by, .blog-extra-in{
+    font-size: 12px;
+}
+
+.blog-hr{
+    width: 5%;
+}

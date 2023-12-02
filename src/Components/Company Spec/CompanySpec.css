@@ -1,0 +1,30 @@
+.company-spec-box{
+    display: flex;
+    gap: 20px;
+}
+
+.company-spec-icon{
+    color: var(--primary-color);
+    padding: 10px;
+    background-color: hsl(220, 100%, 90%);
+    border-radius: 50%;
+    width: 2em !important;
+    height: 2em !important;
+}
+
+.company-spec-texts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.company-spec-title{
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    color: var(--title-color) !important;
+}
+
+.company-spec-desc{
+    font-size: 14px !important;
+    font-weight: 200 !important;
+}

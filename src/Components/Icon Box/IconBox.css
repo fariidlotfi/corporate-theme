@@ -1,0 +1,11 @@
+.box-icon{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 0 10px 30px 0 rgb(44 130 237 / 40%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    padding: 5px;
+}

@@ -1,0 +1,76 @@
+.service-box {
+  background-color: #fff;
+  box-shadow: 0 0 12px #eaf1f3;
+  padding: 30px 15px;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: right;
+  border-radius: 6px;
+  margin: 10px 5px;
+}
+
+.service-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.service-header h2 {
+  font-size: 18px;
+}
+
+.service-desc {
+  font-size: 16px;
+  font-weight: 200 !important;
+}
+
+.service-button {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.service-icon {
+  color: #fff !important;
+  width: 40px !important;
+  padding: 10px !important;
+  position: relative !important;
+}
+
+.service-show-more-icon {
+  color: var(--primary-color);
+  padding: 10px;
+  font-size: 14px !important;
+  border: 1px dotted var(--primary-color);
+  border-radius: 50%;
+  transition: all 0.5s ease;
+}
+
+.service-show-more-link {
+  font-size: 14px;
+}
+
+.service-button:hover .service-show-more-icon {
+  rotate: 45deg;
+  transition: all 0.5s ease;
+}
+
+.service-button:hover .service-show-more-link {
+  color: var(--subtitle-color);
+  transition: all 0.5s ease;
+}
+
+.service-button:not(:hover) .service-show-more-icon {
+  rotate: 0;
+  transition: all 0.5s ease;
+}
+
+.service-button:not(:hover) .service-show-more-link {
+  color: "";
+  transition: all 0.5s ease;
+}

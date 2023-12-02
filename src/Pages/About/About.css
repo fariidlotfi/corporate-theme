@@ -1,0 +1,141 @@
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-first {
+  display: flex;
+  margin: 50px 0;
+  gap: 50px;
+}
+
+.about-first-image {
+  box-shadow: -30px 30px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  width: 80%;
+}
+
+.about-first-col-1 {
+  width: 50%;
+  position: relative;
+  padding: 0 20px;
+}
+
+.about-first-counter-section {
+  position: absolute;
+  bottom: 30%;
+  left: 5%;
+  background-color: #fff;
+  padding: 30px 60px;
+  box-shadow: -5px 5px 30px hsl(220, 90%, 80%);
+  border-radius: 12px;
+}
+
+.about-first-counter-section span {
+  font-size: 35px;
+  color: #f35a38;
+}
+
+.about-first-col-2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.about-first-col-2 > h2 {
+  font-size: 35px;
+}
+
+.about-second {
+  display: flex;
+  gap: 50px;
+  margin: 100px 0;
+}
+
+.about-second-col-1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-second-col-1 > h2 {
+  font-size: 35px;
+}
+
+.about-second-col-1 > p {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.about-second-col-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 50%;
+}
+
+.about-page-subtitle {
+  position: relative;
+  padding-right: 40px;
+}
+
+.about-page-subtitle::before {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 2px;
+  background-color: #f35a38;
+  right: 0;
+  top: 50%;
+}
+
+.about-page-third{
+    display: flex;
+    gap: 50px;
+    background-color: #0E2258;
+    color: #fff;
+    padding: 100px 50px;
+    margin-top: 100px;
+}
+
+.about-third-col-1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.about-third-col-1 > p{
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.about-third-col-1 > button{
+    padding: 15px 40px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.about-third-col-1 > button:hover{
+    background-color: #fff;
+    color: var(--primary-color);
+}
+
+.about-third-col-2{
+    border-right: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 2px;
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}

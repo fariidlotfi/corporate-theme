@@ -1,0 +1,21 @@
+.progress-bar-section{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.progress-bar-section span{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.progress-bar{
+    height: 10px;
+    background-color: #F35A38;
+    border-radius: 6px;
+}
+
+.progress-percent{
+    position: absolute;
+    top: 0;
+}

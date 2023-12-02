@@ -1,0 +1,10 @@
+.page-title-section {
+  height: 35vh;
+  background: center / cover url(src/assets/pagetitlebg.jpg) rgba(0, 0, 0, 0.5);
+  display: flex;
+  color: #fff;
+  background-blend-mode: multiply;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
