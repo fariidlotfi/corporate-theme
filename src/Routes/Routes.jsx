@@ -23,9 +23,6 @@ const router = createBrowserRouter([
     element: <Blog />,
   },
   {
-    path: "/",
-  },
-  {
     path: "*",
     element: <Error404 />,
   },
