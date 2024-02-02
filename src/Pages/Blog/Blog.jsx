@@ -19,27 +19,27 @@ export default function Blog() {
         <div className="blog-box-area">
           <BlogBox
             title="نحوه حذف اکانت اینستاگرام | روش تصویری"
-            image="src/assets/blog1.jpg"
+            image="assets/blog1.jpg"
             author="فرید لطفی"
-            authorImage="src/assets/avatar1.jpg"
+            authorImage="assets/avatar1.jpg"
             cat="مارکتینگ"
             desc="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و"
             date="31 تیر"
           />
           <BlogBox
             title="نحوه نوشتن متا دسکریپشن کاربرپسند"
-            image="src/assets/blog2.jpg"
+            image="assets/blog2.jpg"
             author="میلاد محمدی"
-            authorImage="src/assets/avatar1.jpg"
+            authorImage="assets/avatar1.jpg"
             cat="سئو"
             desc="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و"
             date="25 فروردین"
           />
           <BlogBox
             title="عنوان بلاگ"
-            image="src/assets/blog1.jpg"
+            image="assets/blog1.jpg"
             author="فرید لطفی"
-            authorImage="src/assets/avatar1.jpg"
+            authorImage="assets/avatar1.jpg"
             cat="مارکتینگ"
             desc="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و"
             date="31 تیر"
