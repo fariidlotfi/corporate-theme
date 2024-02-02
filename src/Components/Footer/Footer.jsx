@@ -2,7 +2,7 @@ import "./Footer.css";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import TelegramIcon from '@mui/icons-material/Telegram';
+import TelegramIcon from "@mui/icons-material/Telegram";
 
 export default function Footer() {
   return (
@@ -57,15 +57,15 @@ export default function Footer() {
         </div>
       </div>
 
-
-
       <hr className="footer-hr" />
       <div className="down-section-footer">
         <p>تمامی مطالب سایت محفوظ می‌باشد.</p>
-        <img src="src/assets/logo-light.png" height="50px"/>
+        <img src="assets/logo-light.png" height="50px" />
         <div className="newsletter-section-footer">
-            <input type="text" placeholder="آدرس ایمیل" />
-            <button><TelegramIcon /></button>
+          <input type="text" placeholder="آدرس ایمیل" />
+          <button>
+            <TelegramIcon />
+          </button>
         </div>
       </div>
     </footer>

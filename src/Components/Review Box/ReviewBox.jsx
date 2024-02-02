@@ -27,7 +27,7 @@ export default function ReviewBox() {
       </p>
       <hr />
       <div className="review-avatar">
-        <img src="src/assets/review.jpg" className="review-avatar-img" />
+        <img src="assets/review.jpg" className="review-avatar-img" />
         <FormatQuoteIcon className="review-quote-icon" />
       </div>
       <p className="review-name">فرید لطفی</p>

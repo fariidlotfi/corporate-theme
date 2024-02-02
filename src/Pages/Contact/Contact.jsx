@@ -12,7 +12,7 @@ export default function Contact() {
         <PageTitle title="تماس با ما" breadcrumb="خانه -> تماس با ما"/>
 
         <section id="contact">
-        <img src="src/assets/contact.png" className="homepage-contact-image" />
+        <img src="assets/contact.png" className="homepage-contact-image" />
         <div className="contact-container">
           <div className="contact-data-form">
             <span className="contact-section-subtitle">ارتباط با ما</span>
@@ -46,17 +46,17 @@ export default function Contact() {
 
           <div className="contact-ways">
             <IconBox
-              icon="src/assets/code.svg"
+              icon="assets/code.svg"
               title="آدرس"
               desc="کردستان، مریوان، بلوار بعثت"
             />
             <IconBox
-              icon="src/assets/pen.svg"
+              icon="assets/pen.svg"
               title="شماره تماس"
               desc="09195399423"
             />
             <IconBox
-              icon="src/assets/up.svg"
+              icon="assets/up.svg"
               title="ایمیل"
               desc="soafery@gmail.com"
             />

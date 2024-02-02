@@ -15,7 +15,6 @@ export default function Blog() {
         <h2 className="blog-section-title">
           آخرین مطالب وبلاگ را می‌توانید مشاهده نمایید
         </h2>
-        {/* لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و  */}
 
         <div className="blog-box-area">
           <BlogBox

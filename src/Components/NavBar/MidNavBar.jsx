@@ -13,7 +13,6 @@ export default function MidNavBar(params) {
   const { sticky } = params;
   const [menuHeight, setMenuHeight] = useState("0");
 
-
   const stickyHeader = {
     position: "fixed",
     left: "50%",
@@ -25,17 +24,17 @@ export default function MidNavBar(params) {
   };
 
   const menuExpander = () => {
-    menuHeight == "0" ? setMenuHeight("250px") : setMenuHeight("0")
-  }
+    menuHeight == "0" ? setMenuHeight("250px") : setMenuHeight("0");
+  };
 
   return (
     <div style={sticky && stickyHeader}>
       <div className="header-nav">
         <Link to="/">
-          <img src="src/assets/logo2.png" height="50px" />
+          <img src="assets/logo2.png" height="50px" />
         </Link>
 
-        <nav className="navbar-nav-expander" style={{height: menuHeight }}>
+        <nav className="navbar-nav-expander" style={{ height: menuHeight }}>
           <ul>
             <li>
               <Link to="/">صفحه اصلی</Link>
@@ -75,7 +74,7 @@ export default function MidNavBar(params) {
           <LinkedInIcon className="header-social-icon" />
           <YouTubeIcon className="header-social-icon" />
           <TelegramIcon className="header-social-icon" />
-          <MenuIcon className="menu-hamburger-icon" onClick={menuExpander}/>
+          <MenuIcon className="menu-hamburger-icon" onClick={menuExpander} />
         </div>
       </div>
     </div>

@@ -16,31 +16,30 @@ import BlogBox from "../../Components/Blog Box/BlogBox.jsx";
 import IconBox from "../../Components/Icon Box With Desc/IconBox.jsx";
 import Footer from "../../Components/Footer/Footer.jsx";
 
-
 export default function Home() {
   const allServices = [
     {
       id: 1,
       title: "طراحی سایت",
-      icon: "src/assets/code.svg",
+      icon: "assets/code.svg",
       desc: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله",
     },
     {
       id: 2,
       title: "سئوی سایت",
-      icon: "src/assets/up.svg",
+      icon: "assets/up.svg",
       desc: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله",
     },
     {
       id: 3,
       title: "تولید محتوا",
-      icon: "src/assets/pen.svg",
+      icon: "assets/pen.svg",
       desc: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله",
     },
     {
       id: 4,
       title: "توسعه اپلیکیشن",
-      icon: "src/assets/code.svg",
+      icon: "assets/code.svg",
       desc: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله",
     },
   ];
@@ -95,7 +94,7 @@ export default function Home() {
 
       <section id="about">
         <div className="about-img">
-          <img src="src/assets/2.jpg" />
+          <img src="assets/2.jpg" />
           <div className="about-img-text">
             <span>2500+</span>
             <p>مشتریان راضی</p>
@@ -141,9 +140,9 @@ export default function Home() {
         <div className="service-section-services">
           <Carousel service={allServices} />
 
-          {/* <ServiceBox title="ویژگی یک" icon="src/assets/code.svg" desc="sadsa sad sad sad asd asdsadsadsad  sddsa sadsadasd dsa sadd" />
-          <ServiceBox title="ویژگی دو" icon="src/assets/code.svg" desc="sadsa sad sad sad asd asdsadsadsad  sddsa sadsadasd dsa sadd" />
-          <ServiceBox title="ویژگی سه" icon="src/assets/code.svg" desc="sadsa sad sad sad asd asdsadsadsad  sddsa sadsadasd dsa sadd" /> */}
+          {/* <ServiceBox title="ویژگی یک" icon="assets/code.svg" desc="sadsa sad sad sad asd asdsadsadsad  sddsa sadsadasd dsa sadd" />
+          <ServiceBox title="ویژگی دو" icon="assets/code.svg" desc="sadsa sad sad sad asd asdsadsadsad  sddsa sadsadasd dsa sadd" />
+          <ServiceBox title="ویژگی سه" icon="assets/code.svg" desc="sadsa sad sad sad asd asdsadsadsad  sddsa sadsadasd dsa sadd" /> */}
         </div>
       </section>
 
@@ -196,7 +195,7 @@ export default function Home() {
 
         <div className="portfolio-container">
           <div className="portfolio-item">
-            <img src="src/assets/p1.jpg" className="portfolio-img" />
+            <img src="assets/p1.jpg" className="portfolio-img" />
             <span className="portfolio-title">عنوان پروژه</span>
             <p className="portfolio-cat">موضوع</p>
             <button className="portfolio-link">
@@ -204,7 +203,7 @@ export default function Home() {
             </button>
           </div>
           <div className="portfolio-item large">
-            <img src="src/assets/p2.jpg" className="portfolio-img" />
+            <img src="assets/p2.jpg" className="portfolio-img" />
             <span className="portfolio-title">عنوان پروژه</span>
             <p className="portfolio-cat">موضوع</p>
             <button className="portfolio-link">
@@ -212,7 +211,7 @@ export default function Home() {
             </button>
           </div>
           <div className="portfolio-item">
-            <img src="src/assets/p3.jpg" className="portfolio-img" />
+            <img src="assets/p3.jpg" className="portfolio-img" />
             <span className="portfolio-title">عنوان پروژه</span>
             <p className="portfolio-cat">موضوع</p>
             <button className="portfolio-link">
@@ -220,7 +219,7 @@ export default function Home() {
             </button>
           </div>
           <div className="portfolio-item large">
-            <img src="src/assets/p1.jpg" className="portfolio-img" />
+            <img src="assets/p1.jpg" className="portfolio-img" />
             <span className="portfolio-title">عنوان پروژه</span>
             <p className="portfolio-cat">موضوع</p>
             <button className="portfolio-link">
@@ -228,7 +227,7 @@ export default function Home() {
             </button>
           </div>
           <div className="portfolio-item">
-            <img src="src/assets/p2.jpg" className="portfolio-img" />
+            <img src="assets/p2.jpg" className="portfolio-img" />
             <span className="portfolio-title">عنوان پروژه</span>
             <p className="portfolio-cat">موضوع</p>
             <button className="portfolio-link">
@@ -236,7 +235,7 @@ export default function Home() {
             </button>
           </div>
           <div className="portfolio-item large">
-            <img src="src/assets/p3.jpg" className="portfolio-img" />
+            <img src="assets/p3.jpg" className="portfolio-img" />
             <span className="portfolio-title">عنوان پروژه</span>
             <p className="portfolio-cat">موضوع</p>
             <button className="portfolio-link">
@@ -259,19 +258,19 @@ export default function Home() {
           <TeamMember
             name="فرید لطفی"
             role="برنامه‌نویس"
-            image="src/assets/team1.jpg"
+            image="assets/team1.jpg"
             socialLinks={socialLinks}
           />
           <TeamMember
             name="مهناز محمدی"
             role="طراح گرافیک"
-            image="src/assets/team2.jpg"
+            image="assets/team2.jpg"
             socialLinks={socialLinks}
           />
           <TeamMember
             name="میثم میلادی"
             role="دیجیتال مارکتر"
-            image="src/assets/team3.jpg"
+            image="assets/team3.jpg"
             socialLinks={socialLinks}
           />
         </div>
@@ -305,27 +304,27 @@ export default function Home() {
         <div className="blog-box-area">
           <BlogBox
             title="نحوه حذف اکانت اینستاگرام | روش تصویری"
-            image="src/assets/blog1.jpg"
+            image="assets/blog1.jpg"
             author="فرید لطفی"
-            authorImage="src/assets/avatar1.jpg"
+            authorImage="assets/avatar1.jpg"
             cat="مارکتینگ"
             desc="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و"
             date="31 تیر"
           />
           <BlogBox
             title="نحوه نوشتن متا دسکریپشن کاربرپسند"
-            image="src/assets/blog2.jpg"
+            image="assets/blog2.jpg"
             author="میلاد محمدی"
-            authorImage="src/assets/avatar1.jpg"
+            authorImage="assets/avatar1.jpg"
             cat="سئو"
             desc="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و"
             date="25 فروردین"
           />
           <BlogBox
             title="عنوان بلاگ"
-            image="src/assets/blog1.jpg"
+            image="assets/blog1.jpg"
             author="فرید لطفی"
-            authorImage="src/assets/avatar1.jpg"
+            authorImage="assets/avatar1.jpg"
             cat="مارکتینگ"
             desc="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و"
             date="31 تیر"
@@ -338,7 +337,7 @@ export default function Home() {
       {/* ----------------------- contact us section ------------------------- */}
 
       <section id="contact">
-        <img src="src/assets/contact.png" className="homepage-contact-image" />
+        <img src="assets/contact.png" className="homepage-contact-image" />
         <div className="contact-container">
           <div className="contact-data-form">
             <span className="contact-section-subtitle">ارتباط با ما</span>
@@ -372,17 +371,17 @@ export default function Home() {
 
           <div className="contact-ways">
             <IconBox
-              icon="src/assets/code.svg"
+              icon="assets/code.svg"
               title="آدرس"
               desc="کردستان، مریوان، بلوار بعثت"
             />
             <IconBox
-              icon="src/assets/pen.svg"
+              icon="assets/pen.svg"
               title="شماره تماس"
               desc="09195399423"
             />
             <IconBox
-              icon="src/assets/up.svg"
+              icon="assets/up.svg"
               title="ایمیل"
               desc="soafery@gmail.com"
             />
@@ -391,14 +390,9 @@ export default function Home() {
       </section>
       {/* ----------------------- contact us section ------------------------- */}
 
-
-
-
       {/* ----------------------- footer section ------------------------- */}
       <Footer />
       {/* ----------------------- footer section ------------------------- */}
-
-      
     </>
   );
 }

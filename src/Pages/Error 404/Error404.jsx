@@ -6,7 +6,7 @@ export default function Error404() {
 
   return (
     <div className="page-404">
-      <img src="src/assets/404.svg" height="60%" />
+      <img src="assets/404.svg" height="60%" />
       <h2>خطای 404</h2>
       <p>صفحه‌ای که به دنبال آن هستید وجود ندارد یا حذف شده است</p>
       <div className="error-page-buttons">

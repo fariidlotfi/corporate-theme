@@ -14,7 +14,6 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 export default function About() {
-
   const socialLinks = [
     { id: 1, icon: <TwitterIcon />, link: "https://twitter.com/farid" },
     { id: 2, icon: <WhatsAppIcon />, link: "#" },
@@ -28,10 +27,7 @@ export default function About() {
       <div className="about-container">
         <div className="about-first">
           <div className="about-first-col-1">
-            <img
-              src="src/assets/about1.jpg"
-              className="about-first-image"
-            />
+            <img src="assets/about1.jpg" className="about-first-image" />
             <div className="about-first-counter-section">
               <span>26K</span>
               <p>مشتریان راضی</p>
@@ -100,12 +96,8 @@ export default function About() {
             <IconBox image="src/assets/react.svg" />
           </div>
         </div>
-
-
-
-
       </div>
-        <section id="team-member">
+      <section id="team-member">
         <span className="team-member-subtitle">تیم ما</span>
         <h2 className="team-member-title">
           در زیر اعضای تیم متخصص ما را می‌توانید مشاهده نمایید
