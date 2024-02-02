@@ -87,13 +87,13 @@ export default function About() {
           </div>
 
           <div className="about-third-col-2">
-            <IconBox image="src/assets/react.svg" />
-            <IconBox image="src/assets/react.svg" />
-            <IconBox image="src/assets/react.svg" />
-            <IconBox image="src/assets/react.svg" />
-            <IconBox image="src/assets/react.svg" />
-            <IconBox image="src/assets/react.svg" />
-            <IconBox image="src/assets/react.svg" />
+            <IconBox image="assets/react.svg" />
+            <IconBox image="assets/react.svg" />
+            <IconBox image="assets/react.svg" />
+            <IconBox image="assets/react.svg" />
+            <IconBox image="assets/react.svg" />
+            <IconBox image="assets/react.svg" />
+            <IconBox image="assets/react.svg" />
           </div>
         </div>
       </div>
@@ -107,19 +107,19 @@ export default function About() {
           <TeamMember
             name="فرید لطفی"
             role="برنامه‌نویس"
-            image="src/assets/team1.jpg"
+            image="assets/team1.jpg"
             socialLinks={socialLinks}
           />
           <TeamMember
             name="مهناز محمدی"
             role="طراح گرافیک"
-            image="src/assets/team2.jpg"
+            image="assets/team2.jpg"
             socialLinks={socialLinks}
           />
           <TeamMember
             name="میثم میلادی"
             role="دیجیتال مارکتر"
-            image="src/assets/team3.jpg"
+            image="assets/team3.jpg"
             socialLinks={socialLinks}
           />
         </div>
