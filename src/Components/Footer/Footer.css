@@ -1,5 +1,5 @@
 footer {
-  background: center / cover no-repeat #0e2258 url(/footerbg.png);
+  background: center / cover no-repeat #0e2258 url(../../../assets/footerbg.png);
   min-height: 350px;
   color: #fff;
   padding: 20px;
