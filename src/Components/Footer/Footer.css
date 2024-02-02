@@ -1,5 +1,5 @@
 footer {
-  background: center / cover no-repeat #0e2258 url(src/assets/footerbg.png);
+  background: center / cover no-repeat #0e2258 url(/footerbg.png);
   min-height: 350px;
   color: #fff;
   padding: 20px;
@@ -75,44 +75,43 @@ a {
   font-size: 15px;
 }
 
-.footer-hr{
-    max-width: 1200px;
-    margin: 0 auto;
-    border-color: hsl(0, 0%, 80%);
+.footer-hr {
+  max-width: 1200px;
+  margin: 0 auto;
+  border-color: hsl(0, 0%, 80%);
 }
 
-.down-section-footer{
-    color: hsl(0, 0%, 80%);
-    max-width: 1200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 30px auto;
-    flex-wrap: wrap;
-    gap: 50px;
+.down-section-footer {
+  color: hsl(0, 0%, 80%);
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px auto;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
-.newsletter-section-footer{
-  position: relative;  
+.newsletter-section-footer {
+  position: relative;
 }
 
-.newsletter-section-footer input{
-    padding: 10px 20px;
-    background-color: transparent;
-    outline: none;
-    border: 1px solid hsl(0, 0%, 80%);
-    color: #fff;
+.newsletter-section-footer input {
+  padding: 10px 20px;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid hsl(0, 0%, 80%);
+  color: #fff;
 }
 
-
-.newsletter-section-footer button{
-    position: absolute;
-    left: 5px;
-    top: 5px;
-    background-color: #fff;
-    padding: 5px;
-    border: none;
-    outline: none;
-    width: 35px;
-    height: 35px;
+.newsletter-section-footer button {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  background-color: #fff;
+  padding: 5px;
+  border: none;
+  outline: none;
+  width: 35px;
+  height: 35px;
 }
